@@ -4,6 +4,7 @@ body{
 .c1{
    color:#777777;
 }
+
 :root{
 --pra_color:#777777;
 }
@@ -15,6 +16,9 @@ body{
 }
 .section_gap{
    padding: 60px 0px;
+}
+.gap{
+   gap: 1rem;
 }
 nav ul li a{
    color: var(--pra_color)!important;
@@ -40,5 +44,24 @@ nav ul li a{
    left: 0;
    top: 0;
    z-index: -1;
+}
+.course_gap{
+   gap: 10px;
+
+}
+/* explore learnig section */
+
+/* explore learnig section end*/
+
+@media only screen and (max-width:600px){
+  .flex-dir-col{
+   flex-direction: column;
+  }
+  .full{
+   width: 100%!important;
+}
+.my_15{
+   margin: 15px 0px;
+}
 
 }
