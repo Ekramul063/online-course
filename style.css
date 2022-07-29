@@ -65,16 +65,18 @@ nav ul li a{
 }
 
 /* feedback section end*/
+
+.company img{
+   max-width: 150px!important;
+}
+/* footer section */
 .icons{
    cursor: pointer;
 }
 .icons:hover{
   background-color: #0d6efd!important;
 }
-.company img{
-   max-width: 150px!important;
-}
-
+/* footer section end*/
 @media only screen and (max-width:600px){
   .flex-dir-col{
    flex-direction: column;
